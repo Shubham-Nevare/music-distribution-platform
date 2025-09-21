@@ -16,8 +16,8 @@ export const metadata = {
   description: "A white-label music distribution platform built with Next.js",
   icons: {
     icon: "/icon.png",        // default favicon
-    shortcut: "/favicon.ico",    // for Safari pinned tab
-    apple: "/logo.png",          // iOS/Apple devices
+    shortcut: "/icon.png",    // for Safari pinned tab
+    apple: "/icon.png",          // iOS/Apple devices
   },
 };
 
