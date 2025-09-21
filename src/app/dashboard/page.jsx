@@ -76,7 +76,12 @@ export default function DashboardPage() {
       <header className="bg-white shadow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
-            <div className="flex items-center">
+            <div className="flex items-center justify-center">
+              <img
+                src="/icon.png"
+                alt="Music Dashboard"
+                className="w-8 h-8 mr-2"
+              />
               <h1 className="text-3xl font-bold text-gray-900">
                 Music Dashboard
               </h1>

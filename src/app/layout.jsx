@@ -14,6 +14,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Music Distribution Platform",
   description: "A white-label music distribution platform built with Next.js",
+  icons: {
+    icon: "/icon.png",        // default favicon
+    shortcut: "/favicon.ico",    // for Safari pinned tab
+    apple: "/logo.png",          // iOS/Apple devices
+  },
 };
 
 export default function RootLayout({ children }) {

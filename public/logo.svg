@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Circle background -->
+  <circle cx="100" cy="100" r="90" fill="url(#grad)"></circle>
+  
+  <!-- Play button -->
+  <polygon points="80,65 140,100 80,135" fill="white"></polygon>
+  
+  <!-- Sound waves -->
+  <path d="M150 80 Q170 100 150 120" stroke="white" stroke-width="6" fill="none"></path>
+  
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F46E5"></stop>
+      <stop offset="100%" stop-color="#3B82F6"></stop>
+    </linearGradient>
+  </defs>
+</svg>
