@@ -15,7 +15,7 @@ export const metadata = {
   title: "Music Distribution Platform",
   description: "A white-label music distribution platform built with Next.js",
   icons: {
-    icon: "/icon.png",        // default favicon
+    icon: { url: "/icon.png", type: "image/png" }, // modern browsers,        // default favicon
     shortcut: "/icon.png",    // for Safari pinned tab
     apple: "/icon.png",          // iOS/Apple devices
   },
